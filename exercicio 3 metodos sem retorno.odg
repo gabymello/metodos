@@ -1,7 +1,7 @@
 Método 03
 public static void iguais() {
 String nome1 = "gaby";
-String nome2 = "cami";
+String nome2 = "gaby";
 boolean iguais = nome1.equals(nome2);
 if (iguais == true) {
 System.out.println("sao iguais");

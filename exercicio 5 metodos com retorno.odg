@@ -10,7 +10,7 @@ public class CompararNomes {
     }
 
     public static void main(String[] args) {
-        String nome1 = "julia";  // Primeira string
+        String nome1 = "Maria";  // Primeira string
         String nome2 = "Maria";  // Segunda string
 
         // Chama o método verificarIgualdade e imprime o resultado
