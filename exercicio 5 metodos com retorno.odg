@@ -1,0 +1,19 @@
+public class CompararNomes {
+
+    // Método que recebe duas strings e retorna uma string indicando se são iguais ou não
+    public static String verificarIgualdade(String nome1, String nome2) {
+        if (nome1.equals(nome2)) {
+            return "Os nomes são iguais";
+        } else {
+            return "Os nomes não são iguais";
+        }
+    }
+
+    public static void main(String[] args) {
+        String nome1 = "Maria";  // Primeira string
+        String nome2 = "Maria";  // Segunda string
+
+        // Chama o método verificarIgualdade e imprime o resultado
+        String resultado = verificarIgualdade(nome1, nome2);
+        System.out.println(resultado);
+    }
